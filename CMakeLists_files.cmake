@@ -85,13 +85,12 @@ list (APPEND PUBLIC_HEADER_FILES
 	opm/polymer/SimulatorPolymer.hpp
 	opm/polymer/SinglePointUpwindTwoPhasePolymer.hpp
 	opm/polymer/TransportSolverTwophaseCompressiblePolymer.hpp
+	opm/polymer/Point2D.hpp
     opm/polymer/TransportSolverTwophasePolymer.hpp
     opm/polymer/fullyimplicit/PolymerPropsAd.hpp
     opm/polymer/fullyimplicit/FullyImplicitCompressiblePolymerSolver.hpp
     opm/polymer/fullyimplicit/SimulatorFullyImplicitCompressiblePolymer.hpp
     opm/polymer/fullyimplicit/SimulatorFullyImplicitCompressiblePolymer_impl.hpp
-    opm/polymer/fullyimplicit/FullyImplicitBlackoilPolymerSolver.hpp
-    opm/polymer/fullyimplicit/FullyImplicitBlackoilPolymerSolver_impl.hpp
     opm/polymer/fullyimplicit/BlackoilPolymerModel.hpp
     opm/polymer/fullyimplicit/BlackoilPolymerModel_impl.hpp
     opm/polymer/fullyimplicit/SimulatorFullyImplicitBlackoilPolymer.hpp
