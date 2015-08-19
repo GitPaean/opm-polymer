@@ -479,7 +479,7 @@ namespace Opm
 
                 // ignore the cases the temp1 or temp2 is zero first for simplicity.
                 // several more complicated cases remain to be implemented.
-                if( temp1 * temp2 < 0.){
+                if (temp1 * temp2 <= 0.) {
                     foundSegment = true;
                     break;
                 }
